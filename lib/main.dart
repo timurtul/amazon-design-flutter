@@ -40,8 +40,7 @@ class Home extends StatelessWidget {
                         border: InputBorder.none,
                         hintText: "Amazon.com.tr'de Ara",
                         hintStyle: TextStyle(color: Colors.black),
-                        icon: Icon(Icons.search ,color: Colors.black,),
-
+                        icon: Icon(Icons.search ,color: Colors.black),
                         
                       ),
                     )
@@ -49,11 +48,6 @@ class Home extends StatelessWidget {
                 ]
               ),
           ),
-          actions: [ 
-            Icon(Icons.search),
-            Padding(padding: EdgeInsets.symmetric(horizontal: 16),
-            ),
-          ],
           backgroundColor: Color(0xFF8BCFD7) ,
         ),
         
